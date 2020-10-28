@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
+
+/*
+ Títulos: font-family: 'Saira Semi Condensed', sans-serif;
+ Restante: font-family: 'Acme', sans-serif;
+*/
+
+/* soft reset */
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  font-family: 'Acme', sans-serif;
+  font-size: 10px; /* padronizando o 'em' */
+}
+
+header, section, footer {
+  margin: 0 auto;
+  width: 385px;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+header {
+  height: 13vh;
+  padding: 10px 20px;
+}
+
+#header-date {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+.info-user {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#user-hello {
+  font-size: 3em;
+}
+
+#user-img {
+  display: block;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+section {
+  height: 70vh;
+  padding: 0 20px;
+}
+
+.overview {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview p, .notes-title p {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#overview-period {
+  background: #fff;
+  border: 1px solid #E3E6F0;
+  border-radius: 5px;
+  text-indent: 20px;
+  width: 100px;
+}
+
+.prod-cards {
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.card-item {
+  border: 4px solid blueviolet;
+  border-radius: 20px;
+  height: 180px;
+  padding: 20px 20px;
+  position: relative;
+  text-align: center;
+  width: 160px;
+}
+
+.fa-arrow-up, .fa-arrow-down {
+  font-size: 3em;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.fa-arrow-up {
+  color: #34D1BF;
+}
+
+.fa-arrow-down {
+  color: #D1345B;
+}
+
+#number, #liters {
+  font-size: 6em;
+}
+
+#number-cow, #liters-milk {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 1.6em;
+}
+
+.notes {
+  height: 280px;
+  padding: 5px 0;
+}
+
+.notes-title {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.notes-title i {
+  color: #289c8d;
+  font-size: 2em;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.notes-item {
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.item-content {
+  display: flex;
+}
+
+.notes-item p {
+  font-size: 1em;
+}
+
+
+
+footer {
+  align-items: center;
+  border-top: 2px solid #ddd;
+  display: flex;
+  height: 10vh;
+}
+
+#bottom-nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+#bottom-nav li {
+  width: 60px;
+}
+
+#bottom-nav li a {
+  align-items: center;
+  color: #3a3939;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4em;
+}
+
+.bottom-icon {
+  color: #c8c7c7;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.bottom-icon.active {
+  color: #1571C6;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cownecta</title>
+  <link rel="shortcut icon" href="./src/images/logo.png" />
+  <link rel="stylesheet" href="./src/css/style.css">
+
+  <script src="https://kit.fontawesome.com/6a0c1e1089.js"></script>
+
+</head>
+<body>
+
+  <header>
+    <p id="header-date">Quarta, 28 de Outubro</p>
+    <div class="info-user">
+      <p id="user-hello">Olá, Seu José!</p>
+      <img id="user-img" src="./src/images/seu-jose.jpg" />
+    </div>
+  </header>
+
+  <section>
+    <label class="overview">
+      <p>Resumo da Produção</p>
+      <select name="overview-period" id="overview-period">
+        <option value="overview-day">Dia</option>
+        <option value="overview-month">Mês</option>
+        <option value="overview-ano">Ano</option>
+      </select>
+    </label>
+
+    <div class="prod-cards">
+      <div class="card-item">
+        <i class="fas fa-arrow-up"></i>
+        <p id="number">10</p>
+        <p id="number-cow">vacas foram ordenhadas</p>
+      </div>
+
+      <div class="card-item">
+        <i class="fas fa-arrow-down"></i>
+        <p id="liters">100</p>
+        <p id="liters-milk">litros de leite produzidos</p>
+      </div>
+    </div>
+
+    <div class="notes">
+      <div class="notes-title">
+        <p>Lembretes</p>
+        <button><i class="fas fa-plus"></i></button>
+      </div>
+
+      <div class="notes-item">
+        <div class="item-content">
+          <input type="checkbox" name="item-checkbox" id="item-checkbox" checked>
+          <p id="item-message">litros de leite produzidos</p>
+        </div>  
+        
+        <div class="note-buttons">
+          <button><i class="fas fa-edit"></i></button>
+          <button><i class="fas fa-trash"></i></button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <ul id="bottom-nav">
+        <li><a href="./index.html"><i class="fas fa-house-user bottom-icon active"></i>Início</a></li>
+        <!-- <li><a href=""><i class="fas fa-chart-pie"></i>Produção</a></li> -->
+        <li><a href="#"><i class="fas fa-balance-scale-right bottom-icon"></i>Produção</a></li>
+        <li><a href="#"><i class="fas fa-book bottom-icon"></i>Educação</a></li>
+        <li><a href="#"><i class="fas fa-bell bottom-icon"></i>Notificação</a></li>
+        <!-- <li><a href=""><i class="fas fa-chart-pie"></i>Relatórios</a></li> -->
+        <li><a href="#"><i class="fas fa-briefcase bottom-icon"></i>Relatórios</a></li>
+      </ul>
+    </nav>
+
+  </footer>
+  
+</body>
+</html>
