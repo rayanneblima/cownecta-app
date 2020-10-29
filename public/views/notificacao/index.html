@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cownecta</title>
+  <link rel="shortcut icon" href="./../../../src/images/logo.png" />
+  <link rel="stylesheet" href="./../../../src/css/style.css">
+
+  <script src="https://kit.fontawesome.com/6a0c1e1089.js"></script>
+
+</head>
+<body>
+
+  <header>
+    <p id="header-date">Quarta, 28 de Outubro</p>
+    <div class="info-user">
+      <p id="user-hello">Olá, Seu José!</p>
+      <img id="user-img" src="./../../../src/images/seu-jose.jpg" />
+    </div>
+  </header>
+
+  <section>
+    <label class="overview">
+      <p>Notificações do Laticínio Lab32</p>
+    </label>
+
+    <div class="notifications">
+
+      <div class="notification sucess">
+        <div class="item-content">
+          <input type="checkbox" name="item-checkbox" id="item-checkbox" checked>
+          <p class="notification-content">Seu José, sua produção no mês de Outubro apresentou bons índices.</p>
+        </div>  
+      </div>
+
+      <div class="notification error">
+        <div class="item-content">
+          <input type="checkbox" name="item-checkbox" id="item-checkbox" >
+          <p class="notification-content">Seu José, sua produção no mês de Setembro não apresentou bons índices. Veja o material sobre higienização!</p>
+        </div>  
+      </div>
+
+      <div class="notification sucess">
+        <div class="item-content">
+          <input type="checkbox" name="item-checkbox" id="item-checkbox" >
+          <p class="notification-content">Seu José, sua produção no mês de Agosto apresentou bons índices.</p>
+        </div>  
+      </div>
+
+      <div class="notification warning">
+        <div class="item-content">
+          <input type="checkbox" name="item-checkbox" id="item-checkbox" >
+          <p class="notification-content">Seu José, o calor está chegando. Fique atento ao armazenamento da sua produção.</p>
+        </div>  
+      </div>
+
+      <div class="notification reminder">
+        <div class="item-content">
+          <input type="checkbox" name="item-checkbox" id="item-checkbox" checked>
+          <p class="notification-content">Seu José, saiu uma nova cartilha educacional no site. Dê uma olhada =)</p>
+        </div>  
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <ul id="bottom-nav">
+        <li><a href="./../../../index.html"><i class="fas fa-house-user bottom-icon"></i>Início</a></li>
+        <!-- <li><a href=""><i class="fas fa-chart-pie"></i>Produção</a></li> -->
+        <li><a href="#"><i class="fas fa-balance-scale-right bottom-icon"></i>Produção</a></li>
+        <li><a href="./../educacao/"><i class="fas fa-book bottom-icon"></i>Educação</a></li>
+        <li><a href="./index.html"><i class="fas fa-bell bottom-icon active"></i>Notificação</a></li>
+        <!-- <li><a href=""><i class="fas fa-chart-pie"></i>Relatórios</a></li> -->
+        <li><a href="#"><i class="fas fa-briefcase bottom-icon"></i>Relatórios</a></li>
+      </ul>
+    </nav>
+
+  </footer>
+
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
