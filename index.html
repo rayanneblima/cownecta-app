@@ -45,15 +45,18 @@
     </div>
 
     <div class="notes">
+
       <div class="notes-title">
         <p>Lembretes</p>
         <button><i class="fas fa-plus"></i></button>
       </div>
 
+      <!-- <i class="fas fa-arrow-circle-down"></i> -->
+
       <div class="notes-item">
         <div class="item-content">
           <input type="checkbox" name="item-checkbox" id="item-checkbox" checked>
-          <p id="item-message">litros de leite produzidos</p>
+          <p>Separar 1458 do restante (mastite).</p>
         </div>  
         
         <div class="note-buttons">
@@ -61,6 +64,56 @@
           <button><i class="fas fa-trash"></i></button>
         </div>
       </div>
+
+      <div class="notes-item">
+        <div class="item-content">
+          <input type="checkbox" name="item-checkbox" id="item-checkbox">
+          <p>Veterinário pra 088.</p>
+        </div>  
+        
+        <div class="note-buttons">
+          <button><i class="fas fa-edit"></i></button>
+          <button><i class="fas fa-trash"></i></button>
+        </div>
+      </div>
+
+      <div class="notes-item">
+        <div class="item-content">
+          <input type="checkbox" name="item-checkbox" id="item-checkbox">
+          <p>Coleta de carrapatos - análise Embrapa.</p>
+        </div>  
+        
+        <div class="note-buttons">
+          <button><i class="fas fa-edit"></i></button>
+          <button><i class="fas fa-trash"></i></button>
+        </div>
+      </div>
+
+      <div class="notes-item">
+        <div class="item-content">
+          <input type="checkbox" name="item-checkbox" id="item-checkbox">
+          <p>Coleta de carrapatos - análise Embrapa.</p>
+        </div>  
+        
+        <div class="note-buttons">
+          <button><i class="fas fa-edit"></i></button>
+          <button><i class="fas fa-trash"></i></button>
+        </div>
+      </div>
+
+
+      <div class="notes-item">
+        <div class="item-content">
+          <input type="checkbox" name="item-checkbox" id="item-checkbox">
+          <p>Coleta de carrapatos - análise Embrapa.</p>
+        </div>  
+        
+        <div class="note-buttons">
+          <button><i class="fas fa-edit"></i></button>
+          <button><i class="fas fa-trash"></i></button>
+        </div>
+      </div>
+
 
     </div>
   </section>
@@ -79,6 +132,30 @@
     </nav>
 
   </footer>
+
+
+  <section class="add-note">
+    <p>Adicionar um novo lembrete:</p>
+    <label for="item-content" class="item-content">
+      <p>Qual será o lembrete?</p>
+      <input type="text" name="text-content" id="text-content" placeholder="Escreva aqui ou aperte o botão para falar">
+      <button class="microphone"><i class="fas fa-microphone"></i></button>
+    </label>
+    <button><i class="fas fa-check">Salvar</i></button>
+    <button><i class="fas fa-times">Cancelar</i></button>
+  </section>
+
+  <section class="edit-note">
+    <p>Editar um lembrete:</p>
+    <label for="item-content" class="item-content">
+      <p>Lembrete atual</p>
+      <input type="text" name="text-content" id="text-content" placeholder="Escreva aqui ou aperte o botão para falar">
+      <button class="microphone"><i class="fas fa-microphone"></i></button>
+    </label>
+    <button><i class="fas fa-check">Salvar</i></button>
+    <button><i class="fas fa-times">Cancelar</i></button>
+  </section>
   
+  <script src="./src/js/index.js"></script>
 </body>
 </html>
