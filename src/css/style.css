@@ -78,7 +78,7 @@ section {
   font-weight: 600;
 }
 
-#overview-period {
+#overview-period, #overview-period-year  {
   background: #fff;
   border: 1px solid #E3E6F0;
   border-radius: 5px;
@@ -86,7 +86,12 @@ section {
   width: 100px;
 }
 
-.prod-cards {
+#overview-period-year {
+  text-indent: 5px;
+  width: 60px;
+}
+
+.prod-cards, .record-cards {
   align-items: center;
   border-bottom: 2px solid #ddd;
   display: flex;
@@ -102,6 +107,11 @@ section {
   position: relative;
   text-align: center;
   width: 160px;
+}
+
+.record-cards .card-item {
+  height: 300px;
+  width: 300px;
 }
 
 .fa-arrow-up, .fa-arrow-down {
@@ -373,4 +383,11 @@ footer {
 
 .fa-times {
   color: #D1345B;
+}
+
+@media (max-width: 425px) {
+  footer {
+    bottom: -5px;
+    position: absolute;
+  }
 }

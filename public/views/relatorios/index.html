@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cownecta</title>
+  <link rel="shortcut icon" href="./../../../src/images/logo.png" />
+  <link rel="stylesheet" href="./../../../src/css/style.css">
+
+  <script src="https://kit.fontawesome.com/6a0c1e1089.js"></script>
+
+  <script>
+    window.onload = function () {
+    
+    var chart = new CanvasJS.Chart("cbt", {
+        title:{
+        text: "Taxa de CBT"
+        },
+      animationEnabled: true,
+      axisX:{
+        valueFormatString: "MMM",
+        crosshair: {
+          enabled: true,
+          snapToDataPoint: true
+        }
+      },
+      axisY: {
+        crosshair: {
+          enabled: true,
+          snapToDataPoint: true,
+        }
+      },
+      data: [{
+        type: "area",
+        xValueFormatString: "DD MMM",
+        dataPoints: [
+               { x: new Date(2020, 00, 01), y: 76.727997 },
+          { x: new Date(2020, 01, 01), y: 76.727997 },
+          { x: new Date(2020, 02, 01), y: 75.459999 },
+          { x: new Date(2020, 03, 01), y: 76.011002 },
+          { x: new Date(2020, 04, 01), y: 75.751999 },
+          { x: new Date(2020, 05, 01), y: 77.500000 },
+          { x: new Date(2020, 06, 01), y: 77.436996 },
+          { x: new Date(2020, 07, 01), y: 79.650002 },
+          { x: new Date(2020, 08, 01), y: 79.750999 },
+          { x: new Date(2020, 09, 01), y: 80.169998 },
+        ]
+      }]
+    });
+    chart.render();
+
+    var chart = new CanvasJS.Chart("ccs", {
+        title:{
+        text: "Taxa de CCS"
+        },
+      animationEnabled: true,
+      axisX:{
+        valueFormatString: "MMM",
+        crosshair: {
+          enabled: true,
+          snapToDataPoint: true
+        }
+      },
+      axisY: {
+        crosshair: {
+          enabled: true,
+          snapToDataPoint: true,
+        }
+      },
+      data: [{
+        type: "area",
+        xValueFormatString: "DD MMM",
+        dataPoints: [
+               { x: new Date(2020, 00, 01), y: 76.727997 },
+          { x: new Date(2020, 01, 01), y: 76.727997 },
+          { x: new Date(2020, 02, 01), y: 75.459999 },
+          { x: new Date(2020, 03, 01), y: 76.011002 },
+          { x: new Date(2020, 04, 01), y: 75.751999 },
+          { x: new Date(2020, 05, 01), y: 77.500000 },
+          { x: new Date(2020, 06, 01), y: 77.436996 },
+          { x: new Date(2020, 07, 01), y: 79.650002 },
+          { x: new Date(2020, 08, 01), y: 79.750999 },
+          { x: new Date(2020, 09, 01), y: 80.169998 },
+        ]
+      }]
+    });
+    chart.render();
+
+    var chart = new CanvasJS.Chart("gordura-leite", {
+        title:{
+        text: "% de gordura do leite"
+        },
+      animationEnabled: true,
+      axisX:{
+        valueFormatString: "MMM",
+        crosshair: {
+          enabled: true,
+          snapToDataPoint: true
+        }
+      },
+      axisY: {
+        crosshair: {
+          enabled: true,
+          snapToDataPoint: true,
+        }
+      },
+      data: [{
+        type: "area",
+        xValueFormatString: "DD MMM",
+        dataPoints: [
+               { x: new Date(2020, 00, 01), y: 76.727997 },
+          { x: new Date(2020, 01, 01), y: 76.727997 },
+          { x: new Date(2020, 02, 01), y: 75.459999 },
+          { x: new Date(2020, 03, 01), y: 76.011002 },
+          { x: new Date(2020, 04, 01), y: 75.751999 },
+          { x: new Date(2020, 05, 01), y: 77.500000 },
+          { x: new Date(2020, 06, 01), y: 77.436996 },
+          { x: new Date(2020, 07, 01), y: 79.650002 },
+          { x: new Date(2020, 08, 01), y: 79.750999 },
+          { x: new Date(2020, 09, 01), y: 80.169998 },
+        ]
+      }]
+    });
+    chart.render();
+
+    var chart = new CanvasJS.Chart("proteina-leite", {
+        title:{
+        text: "% de proteína do leite"
+        },
+      animationEnabled: true,
+      axisX:{
+        valueFormatString: "MMM",
+        crosshair: {
+          enabled: true,
+          snapToDataPoint: true
+        }
+      },
+      axisY: {
+        crosshair: {
+          enabled: true,
+          snapToDataPoint: true,
+        }
+      },
+      data: [{
+        type: "area",
+        xValueFormatString: "DD MMM",
+        dataPoints: [
+               { x: new Date(2020, 00, 01), y: 76.727997 },
+          { x: new Date(2020, 01, 01), y: 76.727997 },
+          { x: new Date(2020, 02, 01), y: 75.459999 },
+          { x: new Date(2020, 03, 01), y: 76.011002 },
+          { x: new Date(2020, 04, 01), y: 75.751999 },
+          { x: new Date(2020, 05, 01), y: 77.500000 },
+          { x: new Date(2020, 06, 01), y: 77.436996 },
+          { x: new Date(2020, 07, 01), y: 79.650002 },
+          { x: new Date(2020, 08, 01), y: 79.750999 },
+          { x: new Date(2020, 09, 01), y: 80.169998 },
+        ]
+      }]
+    });
+    chart.render();
+    
+    }
+    </script>
+
+</head>
+<body>
+
+  <header>
+    <p id="header-date">Quarta, 28 de Outubro</p>
+    <div class="info-user">
+      <p id="user-hello">Olá, Seu José!</p>
+      <img id="user-img" src="./../../../src/images/seu-jose.jpg" />
+    </div>
+  </header>
+
+  <section>
+    <label class="overview" style="flex-direction: column; width: 100%;">
+      <p>Relatórios da Análise</p>
+    </label>
+
+    <div class="record-cards notes" style="flex-wrap: wrap; height: 90%;">
+      <div id="cbt" style="height: 230px; width: 100%; margin-bottom: 65px;"></div>
+      <div id="ccs" style="height: 230px; width: 100%; margin-bottom: 65px;"></div>
+      <div id="gordura-leite" style="height: 230px; width: 100%; margin-bottom: 65px;"></div>
+      <div id="proteina-leite" style="height: 230px; width: 100%; margin-bottom: 30px;"></div>
+    </div>
+
+  </section>
+
+  <footer>
+    <nav>
+      <ul id="bottom-nav">
+        <li><a href="./../../../index.html"><i class="fas fa-house-user bottom-icon"></i>Início</a></li>
+        <li><a href="./../producao/"><i class="fas fa-balance-scale-right bottom-icon"></i>Produção</a></li>
+        <li><a href="./../educacao/"><i class="fas fa-book bottom-icon"></i>Educação</a></li>
+        <li><a href="./../notificacao/"><i class="fas fa-bell bottom-icon"></i>Notificação</a></li>
+        <li><a href="./index.html"><i class="fas fa-briefcase bottom-icon active"></i>Relatórios</a></li>
+      </ul>
+    </nav>
+
+  </footer>
+
+  <script src="./src/js/index.js"></script>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>
